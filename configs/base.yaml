@@ -1,0 +1,6 @@
+experiment: lr0
+split_seed: 0
+seed: 0
+model: {n_layers: 1, hidden: 64, dropout: 0.0}
+train: {lr: 0.001, weight_decay: 0.0, batch_size: 64, epochs: 30}
+runtime: {device: cpu, num_threads: 1}

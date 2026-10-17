@@ -1,0 +1,26 @@
+{
+  "datasets": {
+    "load_digits": {
+      "source": "sklearn.datasets.load_digits",
+      "version": "1.9.1",
+      "selection": {
+        "rule": "stratified split: test=20%, then val=25% of remainder; split_seed=0",
+        "available": 1797,
+        "taken": 1797,
+        "excluded": 0,
+        "excluded_reason": null,
+        "sizes": {
+          "train": 1077,
+          "val": 360,
+          "test": 360
+        }
+      },
+      "files": {
+        "data/split.json": {
+          "sha256": "852aea16f8963ce7dea3033260ee94e119b679084e6a6a89a40655ce52868903",
+          "n_records": 1797
+        }
+      }
+    }
+  }
+}
